@@ -153,7 +153,7 @@ int main(){
 	//	int traguardo=ndibit-2;
     bool loop=true;
 
-	for(int i=0, h=3; m=true; i++, h--){
+	for(int i=0, h=m; loop=true; i++, h--){
 		
 		if(ndibit<=3){
             cout<<"\n\n-----------RISULTATO FINALE--------";
@@ -168,7 +168,7 @@ int main(){
 */
 		if(h==-1){
 			//i=riparte_da_uno(bit, ndibit);
-			h=3;
+			h=m;
 		}
      
 		cout<<"\n\nrisultato tra :"<<bit[i]<<" e ";
